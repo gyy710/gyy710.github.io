@@ -8,23 +8,49 @@ redirect_from:
   - /about.html
 ---
 
+<!--
+TODO: Uncomment when Google Scholar is set up
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+-->
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I’m Yiyang Guo, an undergrad in Information & Computing Science at School of Mathematics of Fudan University, focusing on **Generative AI, LLMs, Agents, and Reinforcement Learning**. I previously explored **quantitative research** and **diffusion models**, which shaped my emphasis on the **research–system–application** loop with rigor, risk awareness, and reproducibility.
 
+**Research Interests**
+- **Generative AI**: diffusion/consistency, distillation & efficient inference, controllable generation  
+- **LLM & Agents**: RAG, tool use, task decomposition & multi-agent, automated evaluation  
+- **RL for AI Systems**: RLHF/RLAIF/DPO/PPO, alignment and policy optimization, online eval  
+- **Reliability & Systems**: interpretability, robustness & safety, reproducible benchmarks
+
+**Now focusing on**
+- Model slimming and fast inference (distill/prune/quantize/cache)  
+- End-to-end agent pipelines and evaluation on real-world tasks  
+- Bridging generative modeling with time series, retrieval, and decision-making
+
+**Stack**
+- **Languages**: Python, C, C++, Java, R, SQL
+- **ML/AI**: PyTorch, pandas, numpy, matplotlib, seaborn
+- **Infrastructure**: Docker, Kubernetes, Linux, Git, CUDA (basics)
+- **Tools**: Latex, MATLAB
+
+
+<!--
+TODO: Add Google Scholar info when available
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+-->
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.09*: &nbsp;🎉🎉 One papr was submitted to ICLR2026. 
+
+<!--
+TODO: Add Publications when available
 
 # 📝 Publications 
 
@@ -39,16 +65,18 @@ My research interest includes neural machine translation and computer vision. I 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+-->
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.10* Fudan University Outstanding Student Scholarship Second Prize and Fudan University Mathematics Scholarship. 
+- *2024.10* Fudan University Outstanding Student Scholarship Second Prize and Fudan University Mathematics Scholarship.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 - 2026.06 (expected)*, Information and Computational Science, Fudan University. 
+
+
+<!--
+TODO: Add talks and internships
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -56,3 +84,4 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+-->
